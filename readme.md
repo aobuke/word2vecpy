@@ -1,7 +1,7 @@
 > **DISCLAIMER**: This is a very old, rather slow, mostly untested, and *completely* unmaintained implementation of word2vec for an old course project (i.e., I do not respond to questions/issues). Feel free to fork/clone and modify, but *use at your own risk*!
 
 A Python implementation of the Continuous Bag of Words (CBOW) and skip-gram neural network architectures, and the hierarchical softmax and negative sampling learning algorithms for efficient learning of word vectors (Mikolov, et al., 2013a, b, c; http://code.google.com/p/word2vec/).
-
+貌似是一个pos/neg pair，label为0、1的训练模式，不知道和tensorflow教程上那种label[1,0,0,0]有何区别
 Usage
 -----
 To train word vectors:
